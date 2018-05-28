@@ -21,7 +21,11 @@ return [
             'namespace' => 'common\fixtures',
           ],
     ],
+    'modules' => [
+//        'rbac' => 'dektrium\rbac\RbacConsoleModule',
+    ],
     'components' => [
+        'authManager' => 'dektrium\rbac\components\DbManager',
         'log' => [
             'targets' => [
                 [
