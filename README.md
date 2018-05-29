@@ -7,6 +7,7 @@
 </p>
 
 deploing: 
+yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
 yii migrate/fresh --migrationPath=@yii/rbac/migrations
 yii migrate
 yii rbac/init

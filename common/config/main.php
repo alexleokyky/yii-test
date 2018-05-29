@@ -4,6 +4,9 @@ return [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
+    'bootstrap' => [
+        'frontend\modules\admin\Bootstrap'
+    ],
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',

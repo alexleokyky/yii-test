@@ -21,7 +21,6 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => [
         'log',
-        'frontend\modules\admin\Bootstrap'
     ],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
