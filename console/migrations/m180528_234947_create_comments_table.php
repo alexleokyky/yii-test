@@ -32,7 +32,9 @@ class m180528_234947_create_comments_table extends Migration
             'comments',
             'post_id',
             'posts',
-            'id'
+            'id',
+            'CASCADE',
+            'CASCADE'
         );
     }
 
